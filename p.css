@@ -85,7 +85,7 @@
 
 }
 .home .home-content .text-3{
-    font-size: 65px;
+    font-size: 55px;
     margin: 20px -10;
     margin-left: 160px;
 
@@ -94,6 +94,7 @@
 .home .home-content .text-3 span{
     color: crimson;
     font-weight: 600;
+    font-size: 60px;
 }
 .text-3{
 
@@ -288,6 +289,9 @@ section{
     transform: scale(1.05);
     
 
+}
+.text-center{
+    font-size: 20px;
 }
 
 
