@@ -78,7 +78,7 @@
     font-size: 80px;
     font-weight: 600;
     
-    color: aqua;
+    color: crimson;
     width: 80%;
     margin-left: 160px;
 
@@ -94,9 +94,36 @@
 .home .home-content .text-3 span{
     color: crimson;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
+    margin-left: 20px;
 }
-.text-3{
+
+.home-content .text-3 span::after{
+    content:"";
+    margin-left: -60px;
+    animation:animate 5s linear infinite;
+}
+@keyframes animate {
+     0%{
+         content: "STUDENT";
+         color:aqua;
+         padding:50px;
+         font-weight: 600;
+     }
+     50%{
+         content:"DEVELOPER";
+         color:aqua;
+         padding:50px;
+         font-weight: 600;
+        
+     }
+     100%{
+         content: "PROGRAMMER";
+         color:aqua;
+         padding:50px;
+         font-weight: 600;
+         
+     }
 
 }
 
@@ -389,7 +416,7 @@ section{
         font-size: 60px;
         font-weight: 600;
         
-        color: aqua;
+        color: crimson;
         width: 80%;
         margin-left: 10px;
     
@@ -405,7 +432,7 @@ section{
     .home .home-content .text-3 span{
         color: crimson;
         font-weight: 600;
-        font-size: 50px;
+        font-size: 40px;
     }
 
 
