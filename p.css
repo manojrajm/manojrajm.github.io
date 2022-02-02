@@ -271,18 +271,21 @@ section{
     display: flex;
     margin-top: 200px;
     float: left;
-    margin-left: -10px ;
+    margin-left: -100px ;
 }
 #pic img{
     width: 20px;
     height: 200px;
     float: left;
     margin-top: 600px;
-    margin-left: 2px;
+    margin-left: 115px;
     box-shadow: white;
     border-radius: 3px;
     margin-left: 2px;
 
+}
+.col-md-4{
+    margin-right: 200px;
 }
 .p{
     color: white;
@@ -441,10 +444,12 @@ section{
         font-size: 40px;
     }
     .img{
-        margin-left: -200px;
+        margin-left: -80px;
+        width: 600px;
+        height: 400px;
     }
     .Studies .Service-content .card{
-        margin-left: 80px;
+        margin-left: 70px;
 
 
 }
