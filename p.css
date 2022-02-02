@@ -270,7 +270,7 @@ section{
     display: flex;
     margin-top: 200px;
     float: left;
-    margin-left: 20px ;
+    margin-left: 10px ;
 }
 #pic img{
     width: 20px;
@@ -438,6 +438,9 @@ section{
         color: crimson;
         font-weight: 600;
         font-size: 40px;
+    }
+    .img{
+        margin-left: -200px;
     }
 
 
