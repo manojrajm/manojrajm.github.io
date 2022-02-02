@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
+    
+    
+    
 
 }
 .navbar{
@@ -12,6 +16,7 @@
     padding: 20px 0;
     font-family: 'Times New Roman', Times, serif;
     z-index: 999;
+    overflow-y: scroll;    
 }
 .navbar .sticky{
     padding: 30px 0;
