@@ -44,6 +44,8 @@
     margin-left: 20px;
     transition: color 0.5s ease ;
     position:relative;
+    text-decoration: none;
+    list-style-type: none;
 
 }
 .navbar .menu li a:hover{
